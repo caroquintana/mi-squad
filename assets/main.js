@@ -25,6 +25,23 @@ document.getElementById("titulo").appendChild(elemento);
 
 
 
+//Añadiendo una lista desordenada
+var listades = document.createElement("ul");
+var listali = document.createElement("li");
+var textolistanombre = document.createTextNode("Nombre Completo:");
+var textoedad = document.createTextNode("Edad:");
+var textohobbie = document.createTextNode("Hobbies:");
+
+listades.appendChild(listali);
+listali.appendChild(textolistanombre);
+listali.appendChild(textoedad);
+listali.appendChild(textohobbie);
+
+
+var divcarolinaq = document.getElementById("carolinaq");
+divcarolinaq.appendChild(listades);
+
+
 
 
 
