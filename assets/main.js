@@ -16,6 +16,7 @@ var anais = new MiembroSquad("Anais Araya",20, "Estar con Amelia, Ver Netflix, E
 var simona = new MiembroSquad("Simona Ulloa", 22, "Ver Netflix, Escuchar música, Tomar chelas");
 var dulce = new MiembroSquad("Dulce Frau", 25, "Cocinar, Leer, Subir montañas");
 
+
 //Añadiendo un título
 var elemento = document.createElement("h2");
 var contenido = document.createTextNode("A-TÓ-MI-CO Squad");
@@ -25,21 +26,10 @@ document.getElementById("titulo").appendChild(elemento);
 
 
 
-//Añadiendo una lista desordenada
-var listades = document.createElement("ul");
-var listali = document.createElement("li");
-var textolistanombre = document.createTextNode("Nombre Completo:");
-var textoedad = document.createTextNode("Edad:");
-var textohobbie = document.createTextNode("Hobbies:");
-
-listades.appendChild(listali);
-listali.appendChild(textolistanombre);
-listali.appendChild(textoedad);
-listali.appendChild(textohobbie);
+//Añadiendo a cada div los datos
 
 
-var divcarolinaq = document.getElementById("carolinaq");
-divcarolinaq.appendChild(listades);
+document.getElementById("carolinaq").innerHTML = "Nombre Completo: " + carolina.nombreCompleto + "<br> Edad: " + carolina.edad + " años" + "<br> Hobbies: " + carolina.hobbies; 
 
 
 
@@ -48,8 +38,21 @@ divcarolinaq.appendChild(listades);
 
 
 
-//1.Crear el elemento
-//2.Crear un nodo de texto
-//3.Añadir el nodo de texto al elemento
-//4.Agregar atributos al elemento
-//5.Agregar el elemento al documento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
