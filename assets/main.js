@@ -1,4 +1,3 @@
-var hobbies = [];
 
 function MiembroSquad (nombreCompleto, edad, hobbies){
 	this.nombreCompleto = nombreCompleto;
@@ -19,7 +18,7 @@ var dulce = new MiembroSquad("Dulce Frau", 25, "Cocinar, Leer, Subir montañas")
 
 //Añadiendo un título
 var elemento = document.createElement("h2");
-var contenido = document.createTextNode("A-TÓ-MI-CO Squad");
+var contenido = document.createTextNode("A-TÓ-MI-CO SQUAD");
 elemento.appendChild(contenido);
 elemento.setAttribute("align", "center");
 document.getElementById("titulo").appendChild(elemento);
@@ -29,16 +28,14 @@ document.getElementById("titulo").appendChild(elemento);
 //Añadiendo a cada div los datos
 
 
-var divcarolina = document.getElementById("carolinaq").innerHTML += "<strong>Nombre Completo: </strong>" + carolina.nombreCompleto + "<br><strong> Edad: </strong>" + carolina.edad + " años" + "<br><strong> Hobbies: </strong>" + carolina.hobbies; 
-var divjosefa = document.getElementById("josefah").innerHTML += "<strong>Nombre Completo: </strong>" + josefa.nombreCompleto + "<br><strong> Edad: </strong>" + josefa.edad + " años" + "<br><strong> Hobbies: </strong>" + josefa.hobbies; 
-var divmaibett = document.getElementById("maibeett").innerHTML += "<strong>Nombre Completo: </strong>" + maibeet.nombreCompleto + "<br><strong> Edad: </strong>" + maibeet.edad + " años" + "<br><strong> Hobbies: </strong>" + maibeet.hobbies; 
-var divmuriel = document.getElementById("murielb").innerHTML += "<strong>Nombre Completo: </strong>" + muriel.nombreCompleto + "<br><strong> Edad: </strong>" + muriel.edad + " años" + "<br><strong> Hobbies: </strong>" + muriel.hobbies; 
-var divanayn = document.getElementById("anaynp").innerHTML += "<strong>Nombre Completo: </strong>" + anayn.nombreCompleto + "<br><strong> Edad: </strong>" + anayn.edad + " años" + "<br><strong> Hobbies: </strong>" + anayn.hobbies; 
-var divanais = document.getElementById("anaisa").innerHTML += "<strong>Nombre Completo: </strong>" + anais.nombreCompleto + "<br><strong> Edad: </strong>" + anais.edad + " años" + "<br><strong> Hobbies: </strong>" + anais.hobbies; 
-var divsimona = document.getElementById("simonau").innerHTML += "<strong>Nombre Completo: </strong>" + simona.nombreCompleto + "<br><strong> Edad: </strong>" + simona.edad + " años" + "<br><strong> Hobbies: </strong>" + simona.hobbies; 
-var divdulce = document.getElementById("dulcef").innerHTML += "<strong>Nombre Completo: </strong>" + dulce.nombreCompleto + "<br><strong> Edad: </strong>" + dulce.edad + " años" + "<br><strong> Hobbies: </strong>" + dulce.hobbies; 
-
-
+var divcarolina = document.getElementById("carolinaq").innerHTML += "<strong>Nombre Completo: </strong>" + carolina.nombreCompleto + "<br><strong> Edad: </strong>" + carolina.edad + " años" + "<br><strong> Hobbies: </strong><li>" + carolina.hobbies + "</li>"; 
+var divjosefa = document.getElementById("josefah").innerHTML += "<strong>Nombre Completo: </strong>" + josefa.nombreCompleto + "<br><strong> Edad: </strong>" + josefa.edad + " años" + "<br><strong> Hobbies: </strong><li>" + josefa.hobbies + "</li>"; 
+var divmaibett = document.getElementById("maibeett").innerHTML += "<strong>Nombre Completo: </strong>" + maibeet.nombreCompleto + "<br><strong> Edad: </strong>" + maibeet.edad + " años" + "<br><strong> Hobbies: </strong><li>" + maibeet.hobbies + "</li>"; 
+var divmuriel = document.getElementById("murielb").innerHTML += "<strong>Nombre Completo: </strong>" + muriel.nombreCompleto + "<br><strong> Edad: </strong>" + muriel.edad + " años" + "<br><strong> Hobbies: </strong><li>" + muriel.hobbies + "</li>"; 
+var divanayn = document.getElementById("anaynp").innerHTML += "<strong>Nombre Completo: </strong>" + anayn.nombreCompleto + "<br><strong> Edad: </strong>" + anayn.edad + " años" + "<br><strong> Hobbies: </strong><li>" + anayn.hobbies + "</li>"; 
+var divanais = document.getElementById("anaisa").innerHTML += "<strong>Nombre Completo: </strong>" + anais.nombreCompleto + "<br><strong> Edad: </strong>" + anais.edad + " años" + "<br><strong> Hobbies: </strong><li>" + anais.hobbies + "</li>"; 
+var divsimona = document.getElementById("simonau").innerHTML += "<strong>Nombre Completo: </strong>" + simona.nombreCompleto + "<br><strong> Edad: </strong>" + simona.edad + " años" + "<br><strong> Hobbies: </strong><li>" + simona.hobbies + "</li>"; 
+var divdulce = document.getElementById("dulcef").innerHTML += "<strong>Nombre Completo: </strong>" + dulce.nombreCompleto + "<br><strong> Edad: </strong>" + dulce.edad + " años" + "<br><strong> Hobbies: </strong><li>" + dulce.hobbies + "</li>"; 
 
 
 

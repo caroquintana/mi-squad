@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+
+	body {
+	background-color: #F4F6F6;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #2C3E50;
+	line-height: 37px;
+	margin-top: 100px;
+	padding: 20px;
+	}
+
+	#titulo h2 {
+		font-family: 'Arvo', serif;
+		font-weight: 700;
+		font-size: 300%;
+		color: #FF5733;
+		text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+	}
+
+	div#carolinaq{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#josefah{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#maibeett{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#murielb{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#anaynp{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#anaisa{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#simonau{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#dulcef{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
