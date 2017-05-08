@@ -39,7 +39,24 @@ var divdulce = document.getElementById("dulcef").innerHTML += "<strong>Nombre Co
 
 
 
+//Rescatar el comentario del usuario
+function rescateComentario() {
+	var nombrecomentario = document.getElementById("comentario");
+	
+	var reflejarcomentario = document.getElementById("coment");
+	reflejarcomentario.innerHTML += nombrecomentario.value;
+	nombrecomentario.value = " ";	
+}
 
+//Insertar una imagen
+var img = new Image();
+var div = document.getElementById('contenedor-fotocaro');
+
+img.onload = function() {
+  div.innerHTML += '<img src="'+'images/caro.png'+'" />';
+};
+
+img.src = 'images/caro.png';
 
 
 
