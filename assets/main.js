@@ -6,14 +6,14 @@ function MiembroSquad (nombreCompleto, edad, hobbies){
 
 }
 
-var carolina = new MiembroSquad("Carolina Quintana", 31, "Patinar, Comer sushi, Acariciar a sus gatos" );
-var josefa = new MiembroSquad("Josefa Herrera", 20, "Bailar pop, Ver series, Codear");
-var maibeet = new MiembroSquad("Maibeet Torres", 24, "Jugar RPG, Leer, Andar en bici");
-var muriel = new MiembroSquad("Muriel Bahamondes", 25, "Fumar hierba, Jugar pool, Navegar en internet");
-var anayn = new MiembroSquad("Anayn Pavez", 27, "Dibujar, Pastelería, Andar en bici");
-var anais = new MiembroSquad("Anais Araya",20, "Estar con Amelia, Ver Netflix, Estar con mi pareja");
-var simona = new MiembroSquad("Simona Ulloa", 22, "Ver Netflix, Escuchar música, Tomar chelas");
-var dulce = new MiembroSquad("Dulce Frau", 25, "Cocinar, Leer, Subir montañas");
+var carolina = new MiembroSquad("Carolina Quintana", 31, ["Patinar", "Comer sushi", "Acariciar a sus gatos"] );
+var josefa = new MiembroSquad("Josefa Herrera", 20, ["Bailar pop", "Ver series", "Codear"]);
+var maibeet = new MiembroSquad("Maibeet Torres", 24, ["Jugar RPG", "Leer", "Andar en bici"]);
+var muriel = new MiembroSquad("Muriel Bahamondes", 25, ["Fumar hierba", "Jugar pool", "Navegar en internet"]);
+var anayn = new MiembroSquad("Anayn Pavez", 27, ["Dibujar", "Pastelería", "Andar en bici"]);
+var anais = new MiembroSquad("Anais Araya",20, ["Estar con Amelia", "Ver Netflix", "Estar con mi pareja"]);
+var simona = new MiembroSquad("Simona Ulloa", 22, ["Ver Netflix", "Escuchar música", "Tomar chelas"]);
+var dulce = new MiembroSquad("Dulce Frau", 25, ["Cocinar", "Leer", "Subir montañas"]);
 
 
 //Añadiendo un título
@@ -48,9 +48,9 @@ function rescateComentario() {
 	nombrecomentario.value = " ";	
 }
 
-//Insertar una imagen
+//Insertar una imagen Caro
 var img = new Image();
-var div = document.getElementById('contenedor-fotocaro');
+var div = document.getElementById("contenedor-fotocaro");
 
 img.onload = function() {
   div.innerHTML += '<img src="'+'images/caro.png'+'" />';
